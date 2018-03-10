@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
-import './App.css';
-import Header from './Header.component';
-import Footer from './Footer.component';
-import Section from './Section.component';
+import '../../App.css';
+import Header from '../../components/header/Header.component';
+import Footer from '../../components/footer/Footer.component';
+import Section from '../../components/section/Section.component';
 
 
 

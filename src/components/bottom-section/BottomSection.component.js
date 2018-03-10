@@ -1,14 +1,14 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types'
 
-
-class Section extends PureComponent {
+class BottomSection extends PureComponent {
     render() {
         return(
             <section>
-                {this.props.children}
+                Bottom Section
             </section>
         )
     }
 }
 
-export default Section;
+export default BottomSection;

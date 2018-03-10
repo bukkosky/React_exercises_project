@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react';
-import './App.css';
+import './footer.style.css';
 import PropTypes from 'prop-types';
 
 
 const Footer = (props) => (
-    <footer>{props.name} {props.date} {props.school}</footer>
+    <footer className="App-footer">{props.name} {props.date} {props.school}</footer>
 );
 
 Footer.propTypes = {

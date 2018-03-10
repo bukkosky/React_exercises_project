@@ -1,0 +1,9 @@
+section {
+    height: 400px;
+}
+
+p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: red;
+}

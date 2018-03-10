@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './Home.component';
+import Home from './routes/home/Home.component';
 import { BrowserRouter, Route } from 'react-router-dom';
-import About from './About.component';
-import Contact from './Contact.component';
+import About from './routes/about/About.component';
+import Contact from './routes/contact/Contact.component';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
