@@ -2,8 +2,6 @@ import React, { PureComponent } from 'react';
 import './header.style.css';
 import PropTypes from 'prop-types';
 import SubMenu from '../../components/sub-menu/SubMenu';
-import {Link} from 'react-router-dom';
-
 
 
 class Header extends PureComponent {
@@ -40,7 +38,8 @@ class Header extends PureComponent {
                     <div></div>
                 </button>
 
-                {this.state.menuVisibility ? <SubMenu /> : ""}
+                <SubMenu menuVisibility={this.state.menuVisibility} />
+
             </header>
 
         );
