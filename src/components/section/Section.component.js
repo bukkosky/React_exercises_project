@@ -3,6 +3,7 @@ import './section.style.css';
 import PropTypes from 'prop-types'
 import BottomSection from '../bottom-section/BottomSection.component'
 
+
 class Section extends PureComponent {
     static propTypes = {
         bottomSectionVisability: PropTypes.bool.isRequired,
@@ -18,7 +19,10 @@ class Section extends PureComponent {
             <section>
                 {this.props.children}
                 {this.props.bottomSectionVisability ? <BottomSection/> : ''}
+
             </section>
+
+
         );
     }
 }

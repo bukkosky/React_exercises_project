@@ -6,13 +6,15 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import About from './routes/about/About.component';
 import Contact from './routes/contact/Contact.component';
 import registerServiceWorker from './registerServiceWorker';
+import Api from './routes/ApiComponent/Api.component'
 
 ReactDOM.render(
     <BrowserRouter>
         <div>
             <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/contact' component={Contact} />
+            <Route path='/about' component={About} />
+            <Route path='/contact' component={Contact} />
+            <Route path='/api' component={Api} />
         </div>
     </BrowserRouter>,
     document.getElementById('root'));
