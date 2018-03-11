@@ -9,6 +9,7 @@ class SubMenu extends PureComponent {
                 <Link to="/contact">Contact Me /</Link>
                 <Link to="/about">About Me /</Link>
                 <Link to="/api">LIST /</Link>
+                <Link to="/settings">Settings /</Link>
             </nav>
         )
     }
